@@ -106,6 +106,6 @@ class CarController {
     @DeleteMapping("/{id}")
     ResponseEntity<?> delete(@PathVariable Long id) {
         carService.delete(id);
-        return ResponseEntity.ok().build();
+        return ResponseEntity.noContent().build();
     }
 }

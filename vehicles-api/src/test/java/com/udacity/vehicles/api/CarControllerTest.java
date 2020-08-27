@@ -145,7 +145,7 @@ public class CarControllerTest {
 
         mvc.perform(delete("/cars/1")
                 .contentType(MediaType.APPLICATION_JSON_UTF8))
-                .andExpect(status().isOk())
+                .andExpect(status().isNoContent())
                 .andReturn();
 
         given(carService.findById(1L))
