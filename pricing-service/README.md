@@ -19,6 +19,7 @@ input. In this project, you will convert it to a microservice.
 #### Run the code
 
 Follow the following step to run this service you execute:
+
 First, start the Eureka Server
 ```
 $ cd pricing-server
