@@ -18,7 +18,20 @@ input. In this project, you will convert it to a microservice.
 
 #### Run the code
 
-To run this service you execute:
+Follow the following step to run this service you execute:
+First, start the Eureka Server
+```
+$ cd pricing-server
+```
+
+```
+$ mvn clean package
+```
+
+```
+$ java -jar target/pricing-server-0.0.1-SNAPSHOT.jar
+```
+Second, start the pricing microserivce
 
 ```
 $ mvn clean package
